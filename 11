@@ -1,0 +1,19 @@
+""""
+11
+Escribí un programa que le solicite al usuario ingresar una fecha formada por 8
+números, donde los primeros dos representan el día, los siguientes dos el mes y
+los últimos cuatro el año (DDMMAAAA). Este dato debe guardarse en una variable
+con tipo int (número entero). Finalmente, mostrar al usuario la fecha con el
+formato DD / MM / AAAA.
+"""
+import string
+
+
+f=input("Fecha en formato DDMMAAAA:")
+fq=int(f)
+f1=f[0:2]
+f2=f[2:4]
+f3=f[4:8]
+print(f"{f1}/ {f2}/ {f3}")
+print(type(f))
+
